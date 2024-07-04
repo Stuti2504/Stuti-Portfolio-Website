@@ -108,6 +108,7 @@
         .about-containers {
           flex-wrap: wrap;
         }
+      
         #contact,
         #projects {
           height: auto;
@@ -132,6 +133,7 @@
         .arrow {
           display: none;
         }
+       
         section,
         .section-container {
           height: fit-content;
@@ -157,7 +159,7 @@
      }
       }
       
-      @media screen and (max-width: 600px) {
+      @media screen and (max-width: 100px) {
         #contact,
         footer {
           height: 40vh;
@@ -179,6 +181,7 @@
         .btn-container {
           flex-wrap: wrap;
         }
+        
         .contact-info-container {
           margin: 0;
         }
@@ -219,11 +222,16 @@
            display:flex;
            margin-bottom: 20px;
         }
-
+     
         
       }
-       
-
+      @media screen and (max-width: 600px){
+        .contact-info-upper-container{
+          border: none;
+          flex-wrap: wrap;
+          justify-content: flex-start;
+        }
+      }
 
 
 
