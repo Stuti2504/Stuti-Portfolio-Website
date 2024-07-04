@@ -218,21 +218,25 @@
             display: none;
         }
         .column{
-           width:fit-content;
-           display:flex;
-           margin-bottom: 20px;
-        }
-     
-        
+          width:fit-content;
+          display:flex;
+          margin-bottom: 20px;
+       }
+
       }
-      @media screen and (max-width: 600px){
+  
+      @media screen and (max-width: 600px) {
         .contact-info-upper-container{
           border: none;
           flex-wrap: wrap;
           justify-content: flex-start;
         }
+        .column{
+          width:100%;
+          display:flex;
+          flex-wrap: wrap;
+          margin-bottom: 20px;
+       }
       }
-
-
 
       
